@@ -8,12 +8,6 @@ int main()
     /**
         LightOJ 1010
 
-        for  an m * n chess board ,  there is two color;
-        a black knight never attack a black place
-
-        if m or n is odd , the majority color can be chosen for knight
-        each square of a color gets a knight
-
     */
     int test; scanf("%d",&test);
 
@@ -26,7 +20,7 @@ int main()
 
         /** if n or m is 1 the all place can fill with knight
             _________________
-            | * | * | * | * |
+            | 0 | 0 | 0 | 0 |
             -----------------
         */
         if ( n==1 || m==1) place = m*n;
@@ -35,30 +29,30 @@ int main()
         else if(n==2 || m==2)
         {
             int mx = max(n,m);
-            /** knight can be placed extra one place of opposite color
+            /**
                 _____________________
-                | * | * | . | . | * |      2*5
+                | 0 | 0 | . | . | 0 |      2*5
                 ---------------------      max = 5
-                | * | * | . | . | * |      if( max%4 == 1) place = max + 1
+                | 0 | 0 | . | . | 0 |      if( max%4 == 1) place = max + 1
                 ---------------------
 
                 _____________
-                | * | * | . |      2*3
+                | 0 | 0 | . |      2*3
                 -------------      max = 3
-                | * | * | . |      if( max % 4 == 3) place = max + 1
+                | 0 | 0 | . |      if( max % 4 == 3) place = max + 1
                 -------------
 
                 _________________________
-                | * | * | . | . | * | * |      2*6
+                | 0 | 0 | . | . | 0 | 0 |      2*6
                 -------------------------      max = 6
-                | * | * | . | . | * | * |      if( max%4 == 2) place = max + 2
+                | 0 | 0 | . | . | 0 | 0 |      if( max%4 == 2) place = max + 2
                 -------------------------
 
 
                 _________________________________
-                | * | * | . | . | * | * | . | . |     2*8
+                | 0 | 0 | . | . | 0 | 0 | . | . |     2*8
                 ---------------------------------     max = 8
-                | * | * | . | . | * | * | . | . |     if( max%4 == 0) place = max
+                | 0 | 0 | . | . | 0 | 0 | . | . |     if( max%4 == 0) place = max
                 ---------------------------------
 
             */
