@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    /*** lightOJ 1069
+    /*** lightOJ 1072
 
     n times bullet in pistol barrel.
     each bullet takes  ( 2*pi / n )  degree angle
