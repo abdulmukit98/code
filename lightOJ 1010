@@ -1,0 +1,109 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int main()
+{
+    /**
+        LightOJ 1010
+
+        for  an m * n chess board ,  there is two color;
+        a black knight never attack a black place
+
+        if m or n is odd , the majority color can be chosen for knight
+        each square of a color gets a knight
+
+    */
+    int test; scanf("%d",&test);
+
+    for(int i = 0; i < test; i++){
+        int m  , n;
+        scanf("%d %d", &m, &n);
+
+        int place;
+
+
+        /** if n or m is 1 the all place can fill with knight
+            _________________
+            | * | * | * | * |
+            -----------------
+        */
+        if ( n==1 || m==1) place = m*n;
+
+
+        else if(n==2 || m==2)
+        {
+            int mx = max(n,m);
+            /** knight can be placed extra one place of opposite color
+                _____________________
+                | * | * | . | . | * |      2*5
+                ---------------------      max = 5
+                | * | * | . | . | * |      if( max%4 == 1) place = max + 1
+                ---------------------
+
+                _____________
+                | * | * | . |      2*3
+                -------------      max = 3
+                | * | * | . |      if( max % 4 == 3) place = max + 1
+                -------------
+
+                _________________________
+                | * | * | . | . | * | * |      2*6
+                -------------------------      max = 6
+                | * | * | . | . | * | * |      if( max%4 == 2) place = max + 2
+                -------------------------
+
+
+                _________________________________
+                | * | * | . | . | * | * | . | . |     2*8
+                ---------------------------------     max = 8
+                | * | * | . | . | * | * | . | . |     if( max%4 == 0) place = max
+                ---------------------------------
+
+            */
+            if(mx % 4 ==1 || mx % 4 == 3) place = mx + 1;
+
+            if(mx % 4 ==2) place = mx + 2;
+
+        }
+
+        /**
+
+                _____________
+                | 0 | . | 0 |
+                -------------
+                | . | 0 | . |         3*5  = 15 odd
+                -------------         place = (3*5/2) + 1
+                | 0 | . | 0 |
+                -------------
+                | . | 0 | . |
+                -------------
+                | 0 | . | 0 |
+                -------------
+
+                _____________
+                | 0 | . | 0 |
+                -------------
+                | . | 0 | . |         3*4  = 12 even
+                -------------         place = (3*4/2)
+                | 0 | . | 0 |
+                -------------
+                | . | 0 | . |
+                -------------
+
+        */
+
+        else if ( m*n % 2 == 1 )  place = ( m*n/2 ) + 1;
+        else if ( m*n % 2 == 0 )  place = ( n*m/2 );
+
+
+        printf("Case %d: %d\n", i+1, place);
+    }
+
+
+
+    return 0;
+}
+
+
