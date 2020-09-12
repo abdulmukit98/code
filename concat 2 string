@@ -32,6 +32,12 @@ int main()
         s[i+strlen(s1)] = s2[i];
 
     printf("%s\n",s);
+    
+    ///strcat
+    memset(s,0x0,sizeof(s));
+    strcat(s,s1);
+    strcat(s,s2);
+    printf("%s\n",s);
 
     return 0;
 }
