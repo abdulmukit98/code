@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define null NULL
+int decToBin(int num);
+
+int main()
+{
+    /***
+        decimal to binary
+
+    */
+    int num; scanf("%d",&num);
+    decToBin(num);
+    printf("\n");
+
+    return 0;
+}
+
+int decToBin(int num)
+{
+    if(num==0)
+        return 0;
+
+    /// without printing anything, go recursive till end
+    decToBin(num/2);
+    ///print remainder from last to first
+    printf("%d",num%2);
+    return 0;
+
+}
