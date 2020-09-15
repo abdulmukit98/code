@@ -9,10 +9,11 @@ int main()
 {
     /***
         timus 1044. Lucky Tickets. Easy!
-
-
+        .
+        .
         let  56127043
-        divide and conquer
+
+             LHS    RHS
              5612   7043
              ----   ----
       sod     14     14
@@ -21,6 +22,8 @@ int main()
               14    14
 
           for each 0 to mid_range   we calculate each (sod)
+
+              i       sod(i)
             0000        0           then populate sod() frequency.
             ...0        0           then calculate those frequency.
             ...1        1
@@ -38,14 +41,31 @@ int main()
 
 
     ///populate data
-    int freq_database[mid_range+1] = {0};
+    /**
+        let n = 4
+            LHS    RHS
+            00      00
+            ..      ..
+            99      99
+
+    sum of maximum mid_range = 9+9 = 18
+    that means freq_of_sod don't exceed index 18 for n=4
+
+        for n = 8       LHS         RHS
+            mid_range = 9999        9999
+            sum_mid_range = 4*9 = 36
+    */
+
+    int sum_mid_range = n/2*9;
+    int freq_of_sod[sum_mid_range + 1] = {0};
+
+
+    ///count each sod variation
     for(int i=0; i<=mid_range; i++)
     {
-        freq_database[sod(i)]++;
+        freq_of_sod[sod(i)]++;
     }
 
-
-    ///calculate data
 
     /**let  n = 4; LHS 2-digits
                    RHS 2-digits
@@ -82,7 +102,8 @@ int main()
     ll ans=0;
     for(int i=0; i<=mid_range; i++)
         {
-            ans = ans + freq_database[sod(i)];
+                    /// RHS variation for each LHS i
+          ans = ans + freq_of_sod[sod(i)];
         }
     printf("%lld\n",ans);
 
