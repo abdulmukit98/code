@@ -40,14 +40,50 @@ int main()
     ///populate data
     int freq_database[mid_range+1] = {0};
     for(int i=0; i<=mid_range; i++)
+    {
         freq_database[sod(i)]++;
+    }
 
 
     ///calculate data
+
+    /**let  n = 4; LHS 2-digits
+                   RHS 2-digits
+
+            for 57 = sod(57) = 12
+            here 12 make 7 variance
+                39
+                48
+                57
+                66
+                75
+                84
+                93
+
+           LHS      RHS
+            57       39
+             .       48
+             .       57
+             .       66
+             .       75
+             .       84
+             .       93
+
+
+
+                         LHS            RHS  sod(i) make how many variation
+
+        for each i from ...0                RHS can have all variance as above.
+                        ....
+                        ....
+                        9999
+
+    */
     ll ans=0;
     for(int i=0; i<=mid_range; i++)
-        ans = ans + freq_database[sod(i)];
-
+        {
+            ans = ans + freq_database[sod(i)];
+        }
     printf("%lld\n",ans);
 
 
