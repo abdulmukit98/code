@@ -1,0 +1,67 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define null NULL
+#define ll long long
+
+ll sod(int n);
+
+int main()
+{
+    /***
+        timus 1044. Lucky Tickets. Easy!
+
+
+        let  56127043
+        divide and conquer
+             5612   7043
+             ----   ----
+      sod     14     14
+             5333   7115
+             ----   ----
+              14    14
+
+          for each 0 to mid_range   we calculate each (sod)
+            0000        0           then populate sod() frequency.
+            ...0        0           then calculate those frequency.
+            ...1        1
+            ....
+            ....
+            ....
+            9999        36
+
+    */
+    /// input
+    int n;
+    scanf("%d",&n);
+    int mid_range = pow(10,n/2)+.5 -1;
+
+
+
+    ///populate data
+    int freq_database[mid_range+1] = {0};
+    for(int i=0; i<=mid_range; i++)
+        freq_database[sod(i)]++;
+
+
+    ///calculate data
+    ll ans=0;
+    for(int i=0; i<=mid_range; i++)
+        ans = ans + freq_database[sod(i)];
+
+    printf("%lld\n",ans);
+
+
+    return 0;
+}
+
+
+ll sod(int n)
+{
+    ll sum=0;
+    while(n!=0)
+    {
+        sum = sum + n%10;
+        n = n/10;
+    }
+    return sum;
+}
