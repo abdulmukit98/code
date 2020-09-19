@@ -7,6 +7,6 @@ string s; cin>>s;
 
 len = s.size()
 
-vector <int> vec;
+vector /<int> vec;
 
 len = vec.size()
