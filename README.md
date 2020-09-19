@@ -9,8 +9,8 @@ len = s.size()
 vector (int) vec;
 len = vec.size()
 
-char arr[100] = "Happy"
-sizeof(arr) = 100
+char arr[100] = "Happy";
+sizeof(arr) = 100;
 while strlen(arr) = 5
 
 ### string --- char
