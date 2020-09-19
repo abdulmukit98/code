@@ -2,14 +2,16 @@
 
 Timus JUDGE_ID: 299746HR
 
-## length/size
+### length/size
 string s; cin>>s;
-
 len = s.size()
 
 vector (int) vec;
-
 len = vec.size()
+
+char arr[100] = "Happy"
+sizeof(arr) = 100
+while strlen(arr) = 5
 
 ### string --- char
 stack(string) st;
