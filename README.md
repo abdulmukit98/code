@@ -3,8 +3,8 @@
 Timus JUDGE_ID: 299746HR
 
 ### length/size
-            string s; cin>>s;
-            len = s.size()
+            string s1; cin>>s1;
+            len = s1.size()
 
             vector<int> vec;
             len = vec.size()
@@ -14,23 +14,28 @@ Timus JUDGE_ID: 299746HR
             while strlen(arr) = 5
             
 ### string -----> char
-            stack(string) st;
-            string str = st.top()
+            stack(string) stk;
+            string s1 = stk.top()
 
             char ar[100];
-            for(int i=0; i<str.size(); i++)  arr[i] = str[i];
+            for(int i=0; i<s1.size(); i++)  ar[i] = s1[i];
 
-### clear char array
-    memset(a, 0x0, sizeof(a))
-    * assign char array
+### char
+    char  a[50] = "Hello World"           
+    /** 
+        char array let you assign once on creation. it wont allow assign further more.
+        to assign char array further in code
+    */ 
     strcpy(a, "new string")
-
+    
 ### Char array comparisn
     char str[10]
-
     if ( strcmp(str, "QUIT") == 0 )
     break
 
+
+### Clear char array
+    memset(str,0x0,sizeof(str))
 
 ### Clear Stack
     stack<string> pages;
