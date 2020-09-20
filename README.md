@@ -12,8 +12,8 @@ len = vec.size()
 char arr[100] = "Happy";<br>
 sizeof(arr) = 100;<br>
 while strlen(arr) = 5
-
-### string --- char
+            
+### string -----> char
 stack(string) st;<br>
 string str = st.top()
 
@@ -25,15 +25,20 @@ for(int i=0; i<str.size(); i++)  arr[i] = str[i];
     * assign char array
     strcpy(a, "new string")
 
+### Char array comparisn
+    char str[10]
+
+    if ( strcmp(str, "QUIT") == 0 )
+    break
+
+
 ### Clear Stack
     stack<string> pages;
     while(!pages.empty())
         pages.pop();
 
-### clear vector
-
-***Clear vector
-vector<int> myvector; 
+### Clear vector
+    vector<int> myvector; 
  
     myvector.push_back(1); 
     myvector.push_back(2); 
@@ -44,10 +49,3 @@ vector<int> myvector;
     // Vector becomes 1, 2, 3, 4, 5 
   
     myvector.clear(); 
-
-***Char array comparisn
-
-char str[10]
-
-if ( strcmp(str, "QUIT") == 0 )
-break
