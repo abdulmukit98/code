@@ -3,22 +3,22 @@
 Timus JUDGE_ID: 299746HR
 
 ### length/size
-string s; cin>>s;<br>
-len = s.size()
+            string s; cin>>s;
+            len = s.size()
 
-vector (int) vec;<br>
-len = vec.size()
+            vector<int> vec;
+            len = vec.size()
 
-char arr[100] = "Happy";<br>
-sizeof(arr) = 100;<br>
-while strlen(arr) = 5
+            char arr[100] = "Happy";
+            sizeof(arr) = 100;
+            while strlen(arr) = 5
             
 ### string -----> char
-stack(string) st;<br>
-string str = st.top()
+            stack(string) st;
+            string str = st.top()
 
-char ar[100];<br>
-for(int i=0; i<str.size(); i++)  arr[i] = str[i];
+            char ar[100];
+            for(int i=0; i<str.size(); i++)  arr[i] = str[i];
 
 ### clear char array
     memset(a, 0x0, sizeof(a))
