@@ -61,7 +61,7 @@ int main()
         if(cnt==0) printf("Case %d: divisible\n",t);
         else if(cnt>0) printf("Case %d: not divisible\n",t);
       
-      /// if cnt not ll , it may overflow some time
+      ///if cnt not ll , it may overflow some time
       ///10737418235 2147483647
 
     }
