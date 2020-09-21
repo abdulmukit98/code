@@ -44,7 +44,7 @@ Timus JUDGE_ID: 299746HR
     while(!pages.empty())
         pages.pop();
 
-# Clear vector
+### Clear vector
     vector<int> myvector; 
  
     myvector.push_back(1); 
