@@ -3,6 +3,7 @@ Timus JUDGE_ID: 299746HR
 
 index<br>
 [1. insertion sort](#insertion-sort)
+[2. data types](https://en.wikipedia.org/wiki/C_data_types)
 
 ### length/size
             string s1; cin>>s1;
