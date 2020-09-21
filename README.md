@@ -1,7 +1,8 @@
 # code
 Timus JUDGE_ID: 299746HR
 
-[sorting](#sorting)
+index<br>
+[1. insertion sort](#insertion-sort)
 
 ### length/size
             string s1; cin>>s1;
@@ -56,8 +57,6 @@ Timus JUDGE_ID: 299746HR
   
     myvector.clear(); 
 
-
-# sorting
 ### insertion sort
     void insertion(int* arr, int n)
     {
