@@ -1,6 +1,6 @@
 # code
 
-[clr](### Clear-vector)
+[clr](###-Clear-vector)
 
 Timus JUDGE_ID: 299746HR
 
