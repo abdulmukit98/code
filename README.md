@@ -17,7 +17,7 @@ index<br>
             while strlen(arr) = 5
             
 ### string -----> char
-            stack(string) stk;
+            stack<string> stk;
             string s1 = stk.top()
 
             char ar[100];
