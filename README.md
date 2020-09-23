@@ -171,7 +171,7 @@ index<br>
     }
 
 
-### stringstream
+### stringstream stl
     char str[100];
     gets(str);
     for(int i=0; i<strlen(str); i++s)
