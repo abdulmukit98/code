@@ -159,19 +159,17 @@ index<br>
     }
     
 ### strtok (string.h function)
-    char str[100];
+    char str[200];
     gets(str);
-
-    vector<char*> word;
+    vector<string> word;
     char* token;
-
-    token = strtok(str, ", ");
-
-    while(token!=NULL)
+    token = strtok(str, " ");
+    while (token != null)
     {
         word.push_back(token);
-        token = strtok(null, " ,");     ///strtok must run to find next token
+        token = strtok(null, " ");     // find next token
     }
+
 
 ### stringstream
     char str[100];
