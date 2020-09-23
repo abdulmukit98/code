@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*
- *  lightOJ 1227 boiled eggs
- * */
 
 int main() {
+    /*
+     *  lightOJ 1227 boiled eggs
+     * */
     int test; scanf("%d",&test);
     for(int t=1; t<=test; t++)
     {
