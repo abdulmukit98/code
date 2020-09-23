@@ -130,3 +130,59 @@ index<br>
         -------------------------------------
 
     */
+
+### tokenize basic
+    char s1[100];
+    memset(s1,0x0,sizeof(s1));
+    gets(s1);
+
+    vector<string> word;
+    char token[20];
+    memset(token,0x0,sizeof(token));
+    int d=0;
+
+    for(int i=0; i<=strlen(s1); i++)
+    {
+        if(s1[i] == ',' || s1[i] == '.') s1[i] = ' ';
+
+        if(s1[i] == ' ' || s1[i] == '\0')
+        {
+            if(strlen(token) > 0)
+                word.push_back(token);
+            d=0;
+            memset(token,0x0,sizeof(token));
+            continue;
+        }
+        token[d] = s1[i];
+        d++;
+    }
+    
+### strtok (string.h function)
+    char str[100];
+    gets(str);
+
+    vector<char*> word;
+    char* token;
+
+    token = strtok(str, ", ");
+
+    while(token!=NULL)
+    {
+        word.push_back(token);
+        token = strtok(null, " ,");     ///strtok must run to find next token
+    }
+
+### stringstream
+    char str[100];
+    gets(str);
+    for(int i=0; i<strlen(str); i++s)
+        if(str[i]==',') str[i]=' ';
+
+    vector<string> word;
+
+    stringstream func(str);
+    string s;
+    while(func >> s)        ///  >> bitwise write shift
+    {
+        word.push_back(s);
+    }
