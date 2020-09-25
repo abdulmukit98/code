@@ -5,7 +5,7 @@ index<br>
 [1. insertion sort](#insertion-sort)<br>
 [2. data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 [3. tokenize](#tokenize-basic)<br>
-[4. class sort](#class-sort)
+[4. class array sort](#class-sort)
 
 ### length/size
             string s1; cin>>s1;
