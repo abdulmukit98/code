@@ -190,6 +190,7 @@ index<br>
 ### class sort
     class student
     {
+    public:
             string name;
             int roll;
             int mark;
