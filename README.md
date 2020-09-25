@@ -185,3 +185,45 @@ index<br>
     {
         word.push_back(s);
     }
+    
+### class sort
+    class student
+    {
+            string name;
+            int roll;
+            int mark;
+    };
+
+            student arr[3];
+
+            arr[0]
+            name = "hello"
+            roll = 1
+            mark = 20
+
+            arr[1]
+            name = "panda"
+            roll = 2
+            mark = 15
+
+            arr[2]
+            name = "joe"
+            roll = 3
+            mark = 25
+
+            void sort_student(student* arr, int n)
+            {
+                student key;
+                for(int j=1; j<n; j++)
+                {
+                    int i = j-1;
+                    key = arr[j];
+
+                    while (arr[i].mark > key.mark && i>=0)
+                    {
+                        arr[i+1] = arr[i];
+                        i = i-1;
+                    }
+                    arr[i+1] = key;
+                }
+            }
