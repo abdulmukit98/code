@@ -210,7 +210,8 @@ index<br>
             name = "joe"
             roll = 3
             mark = 25
-
+            
+            //insertion
             void sort_student(student* arr, int n)
             {
                 student key;
