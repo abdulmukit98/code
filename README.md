@@ -247,4 +247,4 @@ index<br>
             * triangle area from slides
                         sqrt(s(s-a)(s-b)(s-c))
                         s = (a+b+c)/2
-            
+            * pi = acos(-1)
