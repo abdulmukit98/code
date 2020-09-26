@@ -5,7 +5,7 @@ index<br>
 [1. insertion sort](#insertion-sort)<br>
 [2. data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 [3. tokenize](#tokenize-basic)<br>
-[4. class array sort](#class-array-sort)
+[4. class array sort](#class-array-sort)<br>
 [5. interesting problems](#interesting-problems)
 
 ### length/size
@@ -233,3 +233,5 @@ index<br>
             }
 
 ### interesting problems
+[1 lightoj 1261 - K-SAT Problem] (http://lightoj.com/volume_showproblem.php?problem=1261)<br>
+[* solution](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
