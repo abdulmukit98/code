@@ -248,3 +248,15 @@ index<br>
                         sqrt(s(s-a)(s-b)(s-c))
                         s = (a+b+c)/2
             * pi = acos(-1)
+            * vol of cone
+                        V = 1/3 * pi*r*r*h
+            * vol of glass (fraction of cone)
+            
+                                  \--------|--R----/
+                                   \       |      /
+                                    \      |h    /
+                                     \     |    /
+                                      -----|-r--
+              
+              V = 1/3 * pi* h (R*R + r*r + R*r)
+              
