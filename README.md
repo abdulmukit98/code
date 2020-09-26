@@ -261,3 +261,9 @@ index<br>
               V = 1/3 * pi* h (R*R + r*r + R*r)
               
             * dummy_gets sits only after int,double,ll 
+            * range value 
+                        INT_MIN
+                        INT_MAX
+                        LONG_LONG_MIN
+                        ...
+                        ...
