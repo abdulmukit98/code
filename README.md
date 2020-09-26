@@ -233,5 +233,5 @@ index<br>
             }
 
 ### interesting problems
-[1 lightoj 1261 - K-SAT Problem] (http://lightoj.com/volume_showproblem.php?problem=1261)<br>
-[* solution](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
+[1 lightoj 1261 - K-SAT Problem](http://lightoj.com/volume_showproblem.php?problem=1261)
+[    * solution](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
