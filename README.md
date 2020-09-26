@@ -9,7 +9,7 @@ index<br>
 [2. data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 [3. tokenize](#tokenize-basic)<br>
 [4. class array sort](#class-array-sort)<br>
-
+[5. formula](#formula)
 
 ### length/size
             string s1; cin>>s1;
@@ -238,3 +238,13 @@ index<br>
 ### interesting problems
 [* lightoj-1261  (K-SAT Problem)](http://lightoj.com/volume_showproblem.php?problem=1261)<br>
 [----guideline](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
+
+
+### formula
+            * no of digit = log(num) + 1
+            * triangle cone from slides
+                        cosC = (a*a + b*b - c*c) / 2*a*b
+            * triangle area from slides
+                        sqrt(s(s-a)(s-b)(s-c))
+                        s = (a+b+c)/2
+            
