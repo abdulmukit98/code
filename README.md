@@ -5,7 +5,7 @@ index<br>
 [1. insertion sort](#insertion-sort)<br>
 [2. data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 [3. tokenize](#tokenize-basic)<br>
-[4. class array sort](#class-sort)
+[4. class array sort](#class-array-sort)
 
 ### length/size
             string s1; cin>>s1;
@@ -187,7 +187,7 @@ index<br>
         word.push_back(s);
     }
     
-### class sort
+### class array sort
     class student
     {
     public:
