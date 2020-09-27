@@ -7,10 +7,10 @@ Timus JUDGE_ID: 299746HR
 ### index
 1. [insertion sort](#insertion-sort)<br>
 1. [data types](https://en.wikipedia.org/wiki/C_data_types)<br>
-* [tokenize](#tokenize-basic)<br>
-* [class array sort](#class-array-sort)<br>
-* [formula](#formula)<br>
-* [getline vs gets](#getline-vs-gets)
+1. [tokenize](#tokenize-basic)<br>
+1. [class array sort](#class-array-sort)<br>
+1. [formula](#formula)<br>
+1. [getline vs gets](#getline-vs-gets)
 ### length/size
             string s1; cin>>s1;
             len = s1.size()
