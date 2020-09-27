@@ -84,6 +84,12 @@ Timus JUDGE_ID: 299746HR
 
             myvector.clear(); 
 
+<h3>
+<p align="right">
+  <a href="#code" >top^</a>
+</p>
+</h3>
+
 ### insertion sort
     void insertion(int* arr, int n)
     {
@@ -157,6 +163,12 @@ Timus JUDGE_ID: 299746HR
 
     */
 
+<h3>
+<p align="right">
+  <a href="#code" >top^</a>
+</p>
+</h3>
+
 ### tokenize string
 * Basic apprach
 
@@ -214,6 +226,13 @@ Timus JUDGE_ID: 299746HR
                 {
                     word.push_back(s);
                 }
+
+
+<h3>
+<p align="right">
+  <a href="#code" >top^</a>
+</p>
+</h3>
 
 ### class array sort
     class student
