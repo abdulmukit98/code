@@ -42,6 +42,8 @@ Timus JUDGE_ID: 299746HR
             to assign char array further in code
             */ 
             strcpy(a, "new string")
+            
+            *** use gets(char[]) or getline(cin, string) to assign line through terminal
     
 * Char array comparisn
   
@@ -50,7 +52,7 @@ Timus JUDGE_ID: 299746HR
             break
 
 
-### Clear 
+### cleaning junk 
 * char array
             
             memset(str,0x0,sizeof(str))
