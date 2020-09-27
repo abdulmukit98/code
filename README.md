@@ -333,3 +333,8 @@ Timus JUDGE_ID: 299746HR
         }
         //dec is 22
         // if we put 10 as base , we will get num itself!
+       
+       
+<p aligh="center">
+ [top](#code)
+ </p>
