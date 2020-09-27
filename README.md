@@ -12,7 +12,7 @@ Timus JUDGE_ID: 299746HR
 1. [getline vs gets](#getline-vs-gets)
 1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi)
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
-1. [number tricks](#number-tricks)
+
 
 * meaasuring length / size
  
@@ -312,20 +312,8 @@ Timus JUDGE_ID: 299746HR
                         ...
                         ...
 
-### getline vs gets
-            for line input
-            char arr[100]
-            gets(arr)
-            len = strlen(arr)
-            
-            string arr
-            getline(cin, arr)
-            len = arr.size()
-            
-            lightoj compiler dont detect gets, hence show compilation error
-            
-### number tricks
-* reverse an integer
+
+            * reverse an integer
 
                 int i=1234;
                 int  ans=0;
@@ -337,7 +325,7 @@ Timus JUDGE_ID: 299746HR
                 }
                 //ans is 4321
     
-* any base to decimal
+        * any base to decimal
             
         int num = 10110;
         int d=0, rem, dec=0;
@@ -352,6 +340,20 @@ Timus JUDGE_ID: 299746HR
         }
         //dec is 22
         // if we put 10 as base , we will get num itself!
+
+
+### getline vs gets
+            for line input
+            char arr[100]
+            gets(arr)
+            len = strlen(arr)
+            
+            string arr
+            getline(cin, arr)
+            len = arr.size()
+            
+            lightoj compiler dont detect gets, hence show compilation error
+            
 
 <h3>
 <p align="right">
