@@ -327,3 +327,4 @@ Timus JUDGE_ID: 299746HR
             d++;
         }
         //dec is 22
+        // if we put 10 as base , we will get num itself!
