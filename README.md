@@ -6,7 +6,7 @@ Timus JUDGE_ID: 299746HR
 ### index
 1. [insertion sort](#insertion-sort)
 1. [data types](https://en.wikipedia.org/wiki/C_data_types)
-1. [tokenize](#tokenize-basic)
+1. [tokenize](#tokenize-string)
 1. [class array sort](#class-array-sort)
 1. [formula](#formula)
 1. [getline vs gets](#getline-vs-gets)
@@ -14,7 +14,8 @@ Timus JUDGE_ID: 299746HR
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 1. [number tricks](#number-tricks)
 
-### length/size
+*length/size
+ 
             string s1; cin>>s1;
             len = s1.size()
 
@@ -25,47 +26,57 @@ Timus JUDGE_ID: 299746HR
             sizeof(arr) = 100;
             while strlen(arr) = 5
             
-### string -----> char
+* string -----> char
+
             stack<string> stk;
             string s1 = stk.top()
 
             char ar[100];
             for(int i=0; i<s1.size(); i++)  ar[i] = s1[i];
+* char  
 
-### char
-    char  a[50] = "Hello World"           
-    /** 
-        char array let you assign once on creation. it wont allow assign further more.
-        to assign char array further in code
-    */ 
-    strcpy(a, "new string")
+            char  a[50] = "Hello World"           
+            /** 
+             char array let you assign once on creation. it wont allow assign further more.
+            to assign char array further in code
+            */ 
+            strcpy(a, "new string")
     
-### Char array comparisn
-    char str[10]
-    if ( strcmp(str, "QUIT") == 0 )
-    break
+* Char array comparisn
+  
+            char str[10]
+            if ( strcmp(str, "QUIT") == 0 )
+            break
 
 
-### Clear char array
-    memset(str,0x0,sizeof(str))
-
-### Clear Stack
-    stack<string> pages;
-    while(!pages.empty())
-        pages.pop();
-
-### Clear vector
-    vector<int> myvector; 
+### Clear 
+* char array
+            
+            memset(str,0x0,sizeof(str))
+* int array
+            
+            int arr[100]
+            memset(arr, 0, sizeof(arr))
+            
+* clear Stack
  
-    myvector.push_back(1); 
-    myvector.push_back(2); 
-    myvector.push_back(3); 
-    myvector.push_back(4); 
-    myvector.push_back(5); 
+            stack<string> pages;
+            while(!pages.empty())
+            pages.pop();
+
+* clear vector
   
-    // Vector becomes 1, 2, 3, 4, 5 
-  
-    myvector.clear(); 
+            vector<int> myvector; 
+
+            myvector.push_back(1); 
+            myvector.push_back(2); 
+            myvector.push_back(3); 
+            myvector.push_back(4); 
+            myvector.push_back(5); 
+
+            // Vector becomes 1, 2, 3, 4, 5 
+
+            myvector.clear(); 
 
 ### insertion sort
     void insertion(int* arr, int n)
@@ -140,60 +151,64 @@ Timus JUDGE_ID: 299746HR
 
     */
 
-### tokenize basic
-    char s1[100];
-    memset(s1,0x0,sizeof(s1));
-    gets(s1);
+### tokenize string
+* Basic apprach
 
-    vector<string> word;
-    char token[20];
-    memset(token,0x0,sizeof(token));
-    int d=0;
+                char s1[100];
+                memset(s1,0x0,sizeof(s1));
+                gets(s1);
 
-    for(int i=0; i<=strlen(s1); i++)
-    {
-        if(s1[i] == ',' || s1[i] == '.') s1[i] = ' ';
+                vector<string> word;
+                char token[20];
+                memset(token,0x0,sizeof(token));
+                int d=0;
 
-        if(s1[i] == ' ' || s1[i] == '\0')
-        {
-            if(strlen(token) > 0)
-                word.push_back(token);
-            d=0;
-            memset(token,0x0,sizeof(token));
-            continue;
-        }
-        token[d] = s1[i];
-        d++;
-    }
+                for(int i=0; i<=strlen(s1); i++)
+                {
+                    if(s1[i] == ',' || s1[i] == '.') s1[i] = ' ';
+
+                    if(s1[i] == ' ' || s1[i] == '\0')
+                    {
+                        if(strlen(token) > 0)
+                            word.push_back(token);
+                        d=0;
+                        memset(token,0x0,sizeof(token));
+                        continue;
+                    }
+                    token[d] = s1[i];
+                    d++;
+                }
     
-### strtok (string.h function)
-    char str[200];
-    gets(str);
-    vector<string> word;
-    char* token;
-    token = strtok(str, " ");
-    while (token != null)
-    {
-        word.push_back(token);
-        token = strtok(null, " ");     // find next token
-    }
+* strtok (string.h function)
+                
+                char str[200];
+                gets(str);
+                vector<string> word;
+                char* token;
+                token = strtok(str, " ");
+                while (token != null)
+                {
+                    word.push_back(token);
+                    token = strtok(null, " ");     // find next token
+                }
 
 
-### stringstream stl
-    char str[100];
-    gets(str);
-    for(int i=0; i<strlen(str); i++s)
-        if(str[i]==',') str[i]=' ';
+* stringstream stl
+                
+                char str[100];
+                gets(str);
+                for(int i=0; i<strlen(str); i++s)
+                    if(str[i]==',') str[i]=' ';
 
-    vector<string> word;
+                vector<string> word;
 
-    stringstream func(str);
-    string s;
-    while(func >> s)        ///  >> bitwise write shift
-    {
-        word.push_back(s);
-    }
-    
+                stringstream func(str);
+                string s;
+                while(func >> s)        ///  >> bitwise write shift
+                {
+                    word.push_back(s);
+                }
+
 ### class array sort
     class student
     {
