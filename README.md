@@ -10,7 +10,7 @@ index<br>
 [3. tokenize](#tokenize-basic)<br>
 [4. class array sort](#class-array-sort)<br>
 [5. formula](#formula)
-
+[6. getline vs gets](#getline-vs-gets)
 ### length/size
             string s1; cin>>s1;
             len = s1.size()
@@ -267,3 +267,15 @@ index<br>
                         LONG_LONG_MIN
                         ...
                         ...
+
+### getline vs gets
+            for line input
+            char arr[100]
+            gets(arr)
+            len = strlen(arr)
+            
+            string arr
+            getline(cin, arr)
+            len = arr.size()
+            
+            lightoj compiler dont detect gets, hence show compilation error
