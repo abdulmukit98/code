@@ -14,7 +14,7 @@ Timus JUDGE_ID: 299746HR
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 1. [number tricks](#number-tricks)
 
-*length/size
+* meaasuring length / size
  
             string s1; cin>>s1;
             len = s1.size()
@@ -33,7 +33,8 @@ Timus JUDGE_ID: 299746HR
 
             char ar[100];
             for(int i=0; i<s1.size(); i++)  ar[i] = s1[i];
-* char  
+
+* assign char in code 
 
             char  a[50] = "Hello World"           
             /** 
