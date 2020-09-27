@@ -4,12 +4,12 @@ Timus JUDGE_ID: 299746HR
 [interesting problems](#interesting-problems)<br><br>
 
 
-index<br>
+### index
 [1. insertion sort](#insertion-sort)<br>
 [2. data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 [3. tokenize](#tokenize-basic)<br>
 [4. class array sort](#class-array-sort)<br>
-[5. formula](#formula)
+[5. formula](#formula)<br>
 [6. getline vs gets](#getline-vs-gets)
 ### length/size
             string s1; cin>>s1;
