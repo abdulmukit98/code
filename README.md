@@ -5,8 +5,8 @@ Timus JUDGE_ID: 299746HR
 
 
 ### index
-* [insertion sort](#insertion-sort)<br>
-* [data types](https://en.wikipedia.org/wiki/C_data_types)<br>
+1. [insertion sort](#insertion-sort)<br>
+1. [data types](https://en.wikipedia.org/wiki/C_data_types)<br>
 * [tokenize](#tokenize-basic)<br>
 * [class array sort](#class-array-sort)<br>
 * [formula](#formula)<br>
