@@ -52,7 +52,7 @@ Timus JUDGE_ID: 299746HR
             break
 
 
-### cleaning junk 
+### cleaning garbage value 
 * char array
             
             memset(str,0x0,sizeof(str))
