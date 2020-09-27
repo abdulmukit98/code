@@ -336,7 +336,7 @@ Timus JUDGE_ID: 299746HR
 
 
 <p align="right">
- <h3>
+ 
   <a href="#code">top^</a>
-  </h3>
+  
 </p> 
