@@ -285,14 +285,28 @@ Timus JUDGE_ID: 299746HR
             lightoj compiler dont detect gets, hence show compilation error
             
 ### number tricks
-            reverse an integer
+* reverse an integer
+
+                int i=1234;
+                int  ans=0;
+                while (i!=0)
+                {
+                    int rem = i%10;
+                    i = i/10;
+                    ans = ans*10 + rem;
+                }
+                //ans is 4321
+    
+* any base to decimal
             
-    int i=1234;
-    int  ans=0;
-    while (i!=0)
-    {
-        int rem = i%10;
-        i = i/10;
-        ans = ans*10 + rem;
-    }
-    //ans is 4321
+        int num = vect[i];
+        int d=0, rem, dec=0;
+        while (num != 0)
+        {
+            //last digit
+            rem = num%10;
+            num = num/10;
+            dec = dec + rem * pow(2,d);    // 2 is the base     
+            // power
+            d++;
+        }
