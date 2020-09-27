@@ -337,9 +337,8 @@ Timus JUDGE_ID: 299746HR
 
 <p align="right">
   <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
+  <a href="#code">top</a> |
   <a href="#">Link 2</a> |
   <a href="#">Link 3</a>
   <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
 </p> 
