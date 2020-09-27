@@ -50,6 +50,9 @@ Timus JUDGE_ID: 299746HR
             char str[10]
             if ( strcmp(str, "QUIT") == 0 )
             break
+            
+            string s1 = "Hello";
+            if(s1.compare("Hello")==0) print ok
 
 
 ### cleaning memory garbage 
