@@ -335,7 +335,7 @@ Timus JUDGE_ID: 299746HR
         // if we put 10 as base , we will get num itself!
 
 
-<p align="center">
+<p align="right">
   <b>Some Links:</b><br>
   <a href="#">Link 1</a> |
   <a href="#">Link 2</a> |
