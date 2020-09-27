@@ -315,7 +315,7 @@ Timus JUDGE_ID: 299746HR
     
 * any base to decimal
             
-        int num = vect[i];
+        int num = 10110;
         int d=0, rem, dec=0;
         while (num != 0)
         {
@@ -326,3 +326,4 @@ Timus JUDGE_ID: 299746HR
             // power
             d++;
         }
+        //dec is 22
