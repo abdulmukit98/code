@@ -261,7 +261,7 @@ Timus JUDGE_ID: 299746HR
               V = 1/3 * pi* h (R*R + r*r + R*r)
               
             * dummy_gets sits only after int,double,ll 
-              use getchar() instead of dummy gets
+              use **getchar()** instead of dummy gets
             * range value 
                         INT_MIN
                         INT_MAX
