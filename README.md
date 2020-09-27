@@ -9,7 +9,9 @@ Timus JUDGE_ID: 299746HR
 1. [tokenize](#tokenize-basic)<br>
 1. [class array sort](#class-array-sort)<br>
 1. [formula](#formula)<br>
-1. [getline vs gets](#getline-vs-gets)
+1. [getline vs gets](#getline-vs-gets)<br>
+1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi)
+
 ### length/size
             string s1; cin>>s1;
             len = s1.size()
