@@ -237,7 +237,7 @@ Timus JUDGE_ID: 299746HR
 
 ### interesting problems
 * [lightoj-1261  (K-SAT Problem)](http://lightoj.com/volume_showproblem.php?problem=1261)<br>
-[----guideline](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
+  [guide](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)<br>
 
 
 ### formula
