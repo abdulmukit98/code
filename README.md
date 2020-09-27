@@ -11,6 +11,7 @@ Timus JUDGE_ID: 299746HR
 1. [formula](#formula)<br>
 1. [getline vs gets](#getline-vs-gets)<br>
 1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi)
+1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
 
 ### length/size
             string s1; cin>>s1;
