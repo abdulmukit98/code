@@ -38,7 +38,7 @@ Timus JUDGE_ID: 299746HR
 
             char  a[50] = "Hello World"           
             /** 
-             char array let you assign once on creation. it wont allow assign further more.
+             char array let you assign ( whitespace line ) once on creation. it wont allow assign further more.
             to assign char array further in code
             */ 
             strcpy(a, "new string")
