@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define null NULL
+
 int decToBin(int num);
+int d=0;
 
 int main()
 {
@@ -10,9 +12,15 @@ int main()
 
     */
     int num; scanf("%d",&num);
+    
+    d=0;
     decToBin(num);
-    printf("\n");
-
+    cout<<d<<endl;
+    
+    d=0;
+    decToBin(165);
+    cout<<d<<endl;
+    
     return 0;
 }
 
@@ -23,8 +31,12 @@ int decToBin(int num)
 
     /// without printing anything, go recursive till end
     decToBin(num/2);
+    
     ///print remainder from last to first
-    printf("%d",num%2);
+    // d is global veriable
+    
+    d = d*10 + num%2;
+    
     return 0;
 
 }
