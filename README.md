@@ -4,14 +4,15 @@ Timus JUDGE_ID: 299746HR
 [interesting problems](#interesting-problems)<br><br>
 
 ### index
-1. [insertion sort](#insertion-sort)<br>
-1. [data types](https://en.wikipedia.org/wiki/C_data_types)<br>
-1. [tokenize](#tokenize-basic)<br>
-1. [class array sort](#class-array-sort)<br>
-1. [formula](#formula)<br>
-1. [getline vs gets](#getline-vs-gets)<br>
+1. [insertion sort](#insertion-sort)
+1. [data types](https://en.wikipedia.org/wiki/C_data_types)
+1. [tokenize](#tokenize-basic)
+1. [class array sort](#class-array-sort)
+1. [formula](#formula)
+1. [getline vs gets](#getline-vs-gets)
 1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi)
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
+1. [number tricks](#number-tricks)
 
 ### length/size
             string s1; cin>>s1;
@@ -282,3 +283,16 @@ Timus JUDGE_ID: 299746HR
             len = arr.size()
             
             lightoj compiler dont detect gets, hence show compilation error
+            
+### number tricks
+            reverse an integer
+            
+    int i=1234;
+    int  ans=0;
+    while (i!=0)
+    {
+        int rem = i%10;
+        i = i/10;
+        ans = ans*10 + rem;
+    }
+    //ans is 4321
