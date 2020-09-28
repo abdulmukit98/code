@@ -5,13 +5,13 @@ Timus JUDGE_ID: 299746HR
 
 ### index
 1. [insertion sort](#insertion-sort)
-1. [data types](https://en.wikipedia.org/wiki/C_data_types)
+1. [data types](https://en.wikipedia.org/wiki/C_data_types) :cloud:
 1. [tokenize](#tokenize-string)
 1. [class array sort](#class-array-sort)
 1. [formula](#formula)
 1. [getline vs gets](#getline-vs-gets)
-1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi)
-1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/)
+1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi) :cloud:
+1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/) :cloud:
 
 
 * meaasuring length / size
@@ -314,32 +314,31 @@ Timus JUDGE_ID: 299746HR
 
 
             * reverse an integer
-
-                int i=1234;
-                int  ans=0;
-                while (i!=0)
-                {
-                    int rem = i%10;
-                    i = i/10;
-                    ans = ans*10 + rem;
-                }
-                //ans is 4321
-    
-        * any base to decimal
+                         int i=1234;
+                         int  ans=0;
+                         while (i!=0)
+                         {
+                             int rem = i%10;
+                             i = i/10;
+                             ans = ans*10 + rem;
+                         }
+                         //ans is 4321
             
-        int num = 10110;
-        int d=0, rem, dec=0;
-        while (num != 0)
-        {
-            //last digit
-            rem = num%10;
-            num = num/10;
-            dec = dec + rem * pow(2,d);    // 2 is the base     
-            // power
-            d++;
-        }
-        //dec is 22
-        // if we put 10 as base , we will get num itself!
+            
+            * any base to decimal      
+                         int num = 10110;
+                         int d=0, rem, dec=0;
+                         while (num != 0)
+                         {
+                             //last digit
+                             rem = num%10;
+                             num = num/10;
+                             dec = dec + rem * pow(2,d);    // 2 is the base     
+                             // power
+                             d++;
+                         }
+                         //dec is 22
+                         // if we put 10 as base , we will get num itself!
 
 
 ### getline vs gets
