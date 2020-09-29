@@ -12,6 +12,7 @@ Timus JUDGE_ID: 299746HR
 1. [getline vs gets](#getline-vs-gets)
 1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi) :cloud:
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/) :cloud:
+1. [global variable](#global-variable)
 
 
 * meaasuring length / size
@@ -382,3 +383,36 @@ Timus JUDGE_ID: 299746HR
   <a href="#code" >top^</a>
 </p>
 </h3>
+
+### global variable
+
+    string MON;
+    int DAY;
+    int YEAR;
+
+    int main() {
+        string date1, date2;
+
+        /*  refresh global variable
+            send it to function
+            change its value
+            save it to local variable
+        */
+
+        MON=""; DAY=-1; YEAR=-1;
+        tokenize(date1);
+        m1 = MON; d1 = DAY; y1 = YEAR;
+
+        MON=""; DAY=-1; YEAR=-1;
+        tokenize(date2);
+        m2 =MON; d2=DAY; y2 = YEAR;
+
+        return 0;
+    }
+
+    void tokenize(string date)
+    {
+         MON = "Aug";
+         YEAR = 2020;
+         DAY = 28;
+    }
