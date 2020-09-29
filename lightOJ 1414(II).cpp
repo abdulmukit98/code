@@ -63,12 +63,10 @@ int main() {
 
         MON=""; DAY=-1; YEAR=-1;
         tokenize(date1);
-        //m1 = MON; d1 = DAY; y1 = YEAR;
         one.setup(MON,DAY,YEAR);
 
         MON=""; DAY=-1; YEAR=-1;
         tokenize(date2);
-        //m2 =MON; d2=DAY; y2 = YEAR;
         two.setup(MON,DAY,YEAR);
 
         ll leap = 0;
