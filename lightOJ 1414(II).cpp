@@ -71,8 +71,8 @@ int main() {
 
         ll leap = 0;
         int res1, res2;
-        res1 = processing(one.mon,one.day,one.year);
-        res2 = processing(two.mon,two.day,two.year);
+        res1 = processing(one.mon, one.day, one.year);
+        res2 = processing(two.mon, two.day, two.year);
         // both same year
         if(one.year == two.year)
         {
