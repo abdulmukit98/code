@@ -281,9 +281,10 @@ Timus JUDGE_ID: 299746HR
 
 ### interesting problems
 * [lightoj-1261  (K-SAT Problem)](http://lightoj.com/volume_showproblem.php?problem=1261)<br>
-  [guide](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)
+  [navigate](https://github.com/abdulmukit98/code/blob/master/lightOJ%201261)
 * [lightoj-1414 (February 29)](http://www.lightoj.com/volume_showproblem.php?problem=1414)<br>
-  [using map](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414.cpp)
+  [using map](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414.cpp)<br>
+  [using class](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414(II).cpp)
 
 
 ### formula
