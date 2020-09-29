@@ -346,11 +346,10 @@ Timus JUDGE_ID: 299746HR
                        vector<int> reminder;
                        while (n!=0)
                        {
-                           /// to is the convertion base
+                           /// 2 is the convertion base
                            reminder.push_back(n%2);      
                            n = n/2;
-                       }
-                       
+                       } 
                        /*show the result in decimal format*/
                        int bin = 0, d=0;
                        // reminder[0] should be the last digit     /\
@@ -358,8 +357,7 @@ Timus JUDGE_ID: 299746HR
                        for (int i = 0; i < reminder.size(); ++i) {
                            bin = bin + reminder[i] * pow(10, d);
                            d = d+1;
-                       }
-                       
+                       } 
                        // here bin is 1111101 after convertion
 
 
