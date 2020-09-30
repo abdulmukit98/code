@@ -27,6 +27,8 @@ Timus JUDGE_ID: 299746HR
             sizeof(arr) = 100;
             while strlen(arr) = 5
             
+            sizeof shows how many byte it take
+            
 * string -----> char
 
             stack<string> stk;
