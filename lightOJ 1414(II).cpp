@@ -101,7 +101,7 @@ int main() {
 ll leap_count(int y)
 {
     ll cnt = 0;
-    cnt = cnt + y / 4;
+    cnt = cnt + y / 4; 
     cnt = cnt - y / 100;
     cnt = cnt + y / 400;
 
