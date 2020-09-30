@@ -363,7 +363,17 @@ Timus JUDGE_ID: 299746HR
                            d = d+1;
                        } 
                        // here bin is 1111101 after convertion
+            
+            * leap count
+                      ll leap_count(int y)
+                      {
+                          ll cnt = 0;
+                          cnt = cnt + y / 4; 
+                          cnt = cnt - y / 100;
+                          cnt = cnt + y / 400;
 
+                          return cnt;
+                      }
 
 
 ### getline vs gets
