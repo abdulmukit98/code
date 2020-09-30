@@ -319,8 +319,7 @@ Timus JUDGE_ID: 299746HR
                         ...
 
 
-* reverse an integer
-
+            * reverse an integer
                          int i=1234;
                          int  ans=0;
                          while (i!=0)
@@ -332,8 +331,8 @@ Timus JUDGE_ID: 299746HR
                          //ans is 4321
             
             
-* any base to decimal      
 
+            * any base to decimal      
                          int num = 10110;
                          int d=0, rem, dec=0;
                          while (num != 0)
@@ -348,9 +347,8 @@ Timus JUDGE_ID: 299746HR
                          //dec is 22
                          // if we put 10 as base , we will get num itself!
                          
-                         
-* decimal to any base
-
+                       
+            * decimal to any base
                        int n = 125
                        vector<int> reminder;
                        while (n!=0)
@@ -369,8 +367,8 @@ Timus JUDGE_ID: 299746HR
                        } 
                        // here bin is 1111101 after convertion
             
- * leap count
  
+            * leap count
                       ll leap_count(int y)
                       {
                           ll cnt = 0;
@@ -381,8 +379,8 @@ Timus JUDGE_ID: 299746HR
                           return cnt;
                       }
             
- * fibonacci memorization top down
  
+            * fibonacci memorization top down
                       ll fib(int n)
                       {
                           // global arr
