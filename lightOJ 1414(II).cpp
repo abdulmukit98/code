@@ -82,7 +82,12 @@ int main() {
         {
             if(res1 == 2 || res1 == 1) leap = leap + 1;
             if(res2 == 2 || res2 == 3) leap = leap + 1;
+            /*                                   a to b
+                                           |.....................|
+              0..................................................| a
+              0............................| b                                
                                     // one.year already included hence leave it
+            */
             leap = leap + ( leap_count(two.year-1) - leap_count(one.year) );
         }
 
