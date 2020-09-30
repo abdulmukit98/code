@@ -64,7 +64,13 @@ int main() {
         {
             if(res1 == 2 || res1 == 1) leap = leap + 1;
             if(res2 == 2 || res2 == 3) leap = leap + 1;
-                                                 // remove y1 already
+            /*
+                                                a to b
+                                           |.....................|
+              0..................................................| a
+              0............................| b                                
+                                             // y1 already count
+             */
             leap = leap + ( leap_count(y2-1) - leap_count(y1) );
         }
 
