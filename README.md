@@ -449,12 +449,35 @@ Timus JUDGE_ID: 299746HR
 
 ### combination
     
-
+    /*
+     * nCr
+     * logic
+     *   for a string s
+     *   generate n digit binary number
+     *   where n = len(s)
+     *
+     *  00000
+     *  00001
+     *  00010
+     *  .....
+     *  .....
+     *  10001
+     *  10010
+     *  .....
+     *  .....
+     *  11111
+     *
+     *  all possible combination for n-digit binary
+     *  then we recall those formation 
+     *  where 1 is exactly appear r-times 
+     *  
+     *  thats how we measure nCr
+     */
 
 
     void combination(string s, int r)
     {
-        int upper = pow(2, s.size()) - 1;
+        int upper = pow(2, s.size()) - 1;        // 0 to 2^n -1
 
         for (int i = 0; i <= upper; ++i) {
             int k = i;
