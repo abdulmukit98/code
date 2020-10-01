@@ -453,7 +453,7 @@ Timus JUDGE_ID: 299746HR
      * nCr
      * logic
      *   for a string s
-     *   generate n digit binary number
+     *   generate n-digit binary number
      *   where n = len(s)
      *
      *  00000
