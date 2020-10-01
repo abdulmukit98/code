@@ -391,6 +391,8 @@ Timus JUDGE_ID: 299746HR
                           }
                           return arr[n];
                       } 
+                      
+            * 2^n is the binary digit variance 
 
 ### getline vs gets
             for line input
