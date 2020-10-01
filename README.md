@@ -486,7 +486,7 @@ Timus JUDGE_ID: 299746HR
 
             while (k != 0)
             {
-                if(k%2==1) index.push_back(d);
+                if(k%2==1) index.push_back(d);    // d is the current index of 1
                 d++;
                 k = k/2;
             }
