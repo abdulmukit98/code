@@ -13,6 +13,7 @@ Timus JUDGE_ID: 299746HR
 1. [typecast](https://en.cppreference.com/w/cpp/string/byte/atoi) :cloud:
 1. [vector parameter](https://www.geeksforgeeks.org/passing-vector-function-cpp/) :cloud:
 1. [global variable](#global-variable)
+1. [combination](#combination)
 
 
 * meaasuring length / size
@@ -444,4 +445,36 @@ Timus JUDGE_ID: 299746HR
          MON = "Aug";
          YEAR = 2020;
          DAY = 28;
+    }
+
+### combination
+    
+
+
+
+    void combination(string s, int r)
+    {
+        int upper = pow(2, s.size()) - 1;
+
+        for (int i = 0; i <= upper; ++i) {
+            int k = i;
+            int d = 0;
+            vector<int> index;
+
+            while (k != 0)
+            {
+                if(k%2==1) index.push_back(d);
+                d++;
+                k = k/2;
+            }
+
+            if(index.size() == r)
+            {
+                for (int j = 0; j < index.size(); ++j) {
+                    cout<<s[index[j]];
+                }
+                cout<<"\n";
+            }
+        }
+
     }
