@@ -167,6 +167,6 @@
 
 <h3>
 <p align="right">
-  <a href="#code" >index</a>
+  <a href="https://github.com/abdulmukit98/code#index" >index</a>
 </p>
 </h3>
