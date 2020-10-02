@@ -428,7 +428,7 @@ Timus JUDGE_ID: 299746HR
 
         /*  refresh global variable
             send it to function
-            change its value
+            modify its value
             save it to local variable
         */
 
