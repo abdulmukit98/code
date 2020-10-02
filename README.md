@@ -342,7 +342,7 @@ Timus JUDGE_ID: 299746HR
                          while (num != 0)
                          {
                              //last digit
-                             rem = num%10;                  // 10 for decimal. this logic applicable for other base too  
+                             rem = num%10;                   
                              num = num/10;
                              dec = dec + rem * pow(2,d);    // 2 is the base     
                              // power
