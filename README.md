@@ -15,6 +15,11 @@ Timus JUDGE_ID: 299746HR
 1. [global variable](#global-variable)
 1. [combination](#combination)
 
+<h3>Second</h3> <br>
+
+11. [Quicksort](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#quicksort)
+11. [asd](()
+
 
 * meaasuring length / size
  
