@@ -15,10 +15,10 @@ Timus JUDGE_ID: 299746HR
 1. [global variable](#global-variable)
 1. [combination](#combination)
 
-       second
+   Part II<br>
 11. [Quicksort](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#quicksort)
 
-
+<br>
 * meaasuring length / size
  
             string s1; cin>>s1;
