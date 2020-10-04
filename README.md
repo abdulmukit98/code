@@ -397,7 +397,8 @@ Timus JUDGE_ID: 299746HR
                       } 
                       
             * 2^n is the binary digit variance 
-
+            * stack.top() == vector.back()
+ 
 ### getline vs gets
             for line input
             char arr[100]
