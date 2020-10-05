@@ -17,6 +17,7 @@ Timus JUDGE_ID: 299746HR
 
    Part II<br>
 11. [Quicksort](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#quicksort)
+11. [dfs](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#dfs)
 
 <br>
 * meaasuring length / size
