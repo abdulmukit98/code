@@ -294,6 +294,7 @@ Timus JUDGE_ID: 299746HR
   [using class](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414(II).cpp)
 * [lightoj-1012 (Guilty Prince)](http://www.lightoj.com/volume_showproblem.php?problem=1012)<br>
   [dfs related](https://github.com/abdulmukit98/code/blob/master/lightOJ%201012.cpp)<br>
+  where [basic dfs](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#dfs)<br>
 
 
 ### formula
