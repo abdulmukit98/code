@@ -65,7 +65,6 @@ int main() {
             with no repeated element.
         
         Bonjure
-        Happy codeing
     */
 
     ll n;
