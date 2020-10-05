@@ -178,7 +178,6 @@
 ### dfs
 
 
-        // array of vector
         vector<int> adjacent[1000];
         bool visited[1000];
         void dfs(int node);
