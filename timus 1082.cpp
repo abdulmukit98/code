@@ -17,13 +17,13 @@ int main() {
        Quicksort(l, r) produce c = n*n + 3n -4  for any accepted length n array
 
        Quicksort(A, l, r) is a recursive function which runs many loop
-       to calculate c
+       to calculate c-value
 
        c runs in O(n^2) in Quicksort (n*n + 3n -4)
 
        Again we check multiple Quicksort call to assign the appropriate item
 
-       our main function run O(n^2) to calculate backup
+       our main function run O(n^2) to calculate backup stack :)
 
       ///basic
       for (int i = 0; i < n; ++i)
@@ -54,8 +54,19 @@ int main() {
 
 
         // hence we have to extract the gist of this algorithm
-           which accept for any n-length sorted array of increasing order
-        */
+        idea
+            if we run the basic part block-commented in the main function,
+            we can see that the code produce an array from 0 1 2 ......  n-1
+            for any n value;
+            we check this by keeping n valuelow < 100 to avoid time complexity
+            but we get the point
+            
+            the algorthm requir an array of n-length in ascending order
+            with no repeated element.
+        
+        Bonjure
+        Happy codeing
+    */
 
     ll n;
     scanf("%lld",&n);
