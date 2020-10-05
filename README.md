@@ -292,6 +292,8 @@ Timus JUDGE_ID: 299746HR
 * [lightoj-1414 (February 29)](http://www.lightoj.com/volume_showproblem.php?problem=1414)<br>
   [using map](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414.cpp)<br>
   [using class](https://github.com/abdulmukit98/code/blob/master/lightOJ%201414(II).cpp)
+* [lightoj-1012 (Guilty Prince)](http://www.lightoj.com/volume_showproblem.php?problem=1012)<br>
+  [dfs related](https://github.com/abdulmukit98/code/blob/master/lightOJ%201012.cpp)<br>
 
 
 ### formula
