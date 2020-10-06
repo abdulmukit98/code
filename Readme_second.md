@@ -276,7 +276,7 @@
 
             }
 
-            // starting node 2
+            // starting node 0
             bfs(0);
 
             return 0;
