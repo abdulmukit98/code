@@ -360,3 +360,9 @@
     
     Output: 1 3 5 9 29
 
+<h3>
+<p align="right">
+  <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
+</p>
+</h3>
+
