@@ -359,6 +359,20 @@
     }
     
     Output: 1 3 5 9 29
+    
+### pair
+        
+    priority_queue<pair<char, char>> que;
+    que.push({1,'a'});
+    que.push({5,'b'});
+    que.push({3,'c'});
+    que.push({9,'f'});
+        output
+        9 f
+        5 b
+        3 c
+        1 a
+
 
 <h3>
 <p align="right">
