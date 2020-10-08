@@ -325,3 +325,38 @@
 
 
         }
+
+
+### priority queue
+
+    priority_queue<int> que;
+    que.push(5);
+    que.push(9);
+    que.push(29);
+    que.push(1);
+    que.push(3);
+
+    while (!que.empty())
+    {
+        printf("%d ",que.top());
+        que.pop();
+    }
+    
+    Output: 29 9 5 3 1
+    
+    
+    priority_queue<int, vector<int>, greater<int>> que;
+    que.push(5);
+    que.push(9);
+    que.push(29);
+    que.push(1);
+    que.push(3);
+
+    while (!que.empty())
+    {
+        printf("%d ",que.top());
+        que.pop();
+    }
+    
+    Output: 1 3 5 9 29
+
