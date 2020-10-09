@@ -1,3 +1,4 @@
+### Part II
 ### Quicksort
 
 
@@ -172,6 +173,8 @@
 <h3>
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
+        /
+          <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
 </p>
 </h3>
 
@@ -394,8 +397,8 @@
           bool operator < (node a, node b)
           {
                 // this return type decide how the operator will behave
-                // its necessary for measuring priority pattern
-                // which type of priority Q will maintain
+                // its necessary for measuring priority type of priority_queue Q
+               
                 return a.dis < b.dis;
           }
         
