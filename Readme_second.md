@@ -359,7 +359,46 @@
     }
     
     Output: 1 3 5 9 29
-    
+### priority queue of class 
+        * lets have a class
+                class node{
+                    // pi , d
+                    // parent, distance from source
+                public:
+                    int parent;
+                    int dis;
+
+                    node( int p, int d)
+                    {
+                        this->parent = p;
+                        this->dis = d;
+                    }
+                };
+
+        
+        * now build a priority queue of node's object
+            priority_queue<node> Q;
+                     //par, dis
+            Q.push(node(0, 12));
+            Q.push(node(0, 7));
+            Q.push(node(1, 15));
+            Q.push(node(0, 29));
+            Q.push(node(0, 3));
+        
+        * if we try to run this we will get exception
+                no match for 'operator<' (operand types are 'const node' and 'const node')
+                { return __x < __y; }
+          that mean we need to modify operator < for node class object to precess the priority
+          we use operator overloading of < operator for node class object
+          
+          bool operator < (node a, node b)
+          {
+                // this return type decide how the operator will behaviour
+                // its necessary for measuring priority pattern
+                // which type of priority Q will maintain
+                return a.dis < b.dis;
+          }
+        
 ### pair
         
     priority_queue<pair<char, char>> que;
