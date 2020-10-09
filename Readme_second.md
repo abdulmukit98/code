@@ -410,7 +410,7 @@
                 return a.dis < b.dis;
           }
         
-### pair
+### pair & tuple
         
     priority_queue<pair<char, char>> que;
     que.push({1,'a'});
