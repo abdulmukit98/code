@@ -409,6 +409,8 @@
                
                 return a.dis < b.dis;
           }
+          
+          basically it determine nodeA < nodeB behavior
         
 ### pair & tuple
         
