@@ -174,7 +174,7 @@
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
         /
-  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >top</a>
 </p>
 </h3>
 
@@ -333,7 +333,7 @@
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
         /
-  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >top</a>
 </p>
 </h3>
 
@@ -429,6 +429,6 @@
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
         /
-  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >top</a>
 </p>
 </h3>
