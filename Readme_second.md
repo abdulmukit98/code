@@ -174,7 +174,7 @@
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
         /
-          <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
 </p>
 </h3>
 
@@ -329,6 +329,13 @@
 
         }
 
+<h3>
+<p align="right">
+  <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
+        /
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
+</p>
+</h3>
 
 ### priority queue
 
@@ -362,6 +369,7 @@
     }
     
     Output: 1 3 5 9 29
+
 ### priority queue of class 
         * lets have a class
                 class node{
@@ -416,9 +424,11 @@
         1 a
 
 
+
 <h3>
 <p align="right">
   <a href="https://github.com/abdulmukit98/code/blob/master/README.md#index" >index</a>
+        /
+  <a href="https://github.com/abdulmukit98/code/blob/master/Readme_second.md#part-ii" >index</a>
 </p>
 </h3>
-
