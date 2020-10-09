@@ -393,7 +393,7 @@
           
           bool operator < (node a, node b)
           {
-                // this return type decide how the operator will behaviour
+                // this return type decide how the operator will behave
                 // its necessary for measuring priority pattern
                 // which type of priority Q will maintain
                 return a.dis < b.dis;
