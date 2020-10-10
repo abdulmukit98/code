@@ -338,6 +338,7 @@
 </h3>
 
 ### priority queue
+    *** restriction - element in priority can not be modified 
 
     priority_queue<int> que;
     que.push(5);
