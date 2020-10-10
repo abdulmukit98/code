@@ -427,8 +427,10 @@
 
     * weighted graph
         vector<pair<int, int>> adjacent[1000];
+        
+        scanf edge --> a, b, w;
         adjacent[a].push_back({b, w});
-
+        adjacent[b].push_back({a, w});
 
 <h3>
 <p align="right">
