@@ -20,7 +20,7 @@ Timus JUDGE_ID: 299746HR
 11. [dfs & bfs](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#dfs)<br>
 11. [Priority Queue](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#priority-queue)
 11. [pair & tuple](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#pair--tuple)
-11. Dijkstra
+11. [Dijkstra](https://github.com/abdulmukit98/code/blob/master/Readme_second.md#dijkstra)
 
 <br>
 * meaasuring length / size
@@ -412,6 +412,23 @@ Timus JUDGE_ID: 299746HR
                      // enter edge a, b, w
                      adjacent[a].push_back({b, w});
                      adjacent[b].push_bacl({a, w});
+            
+            
+            * Adjacancy matrix --> Adjacancy list
+                   
+                   int vartex = 9;
+                   vector<int> adjacancy[vartex];
+
+                   for (int i = 0; i < vartex; ++i) {
+                       for (int j = 0; j < vartex; ++j) {
+                           int a;
+                           scanf("%d",&a);
+                           if (a = 1)
+                               adjacancy[i].push_back(j),
+                               adjacancy[j].push_back(i);
+                           // if the graph is weighted, simply make pair of adjacancy
+                       }
+                   }
  
 ### getline vs gets
             for line input
