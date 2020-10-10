@@ -425,6 +425,9 @@
         3 c
         1 a
 
+    * weighted graph
+        vector<pair<int, int>> adjacent[1000];
+        adjacent[a].push_back({b, w});
 
 
 <h3>
