@@ -405,6 +405,13 @@ Timus JUDGE_ID: 299746HR
                       
             * 2^n is the binary digit variance 
             * stack.top() == vector.back()
+            
+            * weighted graph input
+                     vector<pair<int, int>> adjacent[1000];
+                     
+                     // enter edge a, b, w
+                     adjacent[a].push_back({b, w});
+                     adjacent[b].push_bacl({a, w});
  
 ### getline vs gets
             for line input
