@@ -440,13 +440,6 @@
 
 ### dijkstra
        
-        #include <bits/stdc++.h>
-        using namespace std;
-        #define null NULL
-        #define ll long long
-        #define pi acos(-1)
-
-
         class node{
         public:
             int parent;
@@ -470,7 +463,7 @@
 
         int main() {
             /*
-                dijkstra
+                dijkstra algorithm
 
                 Initialize-Single-Source(G, s)
                 {
