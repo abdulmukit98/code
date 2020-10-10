@@ -440,7 +440,14 @@
 
 ### dijkstra
        
-       class node{
+        #include <bits/stdc++.h>
+        using namespace std;
+        #define null NULL
+        #define ll long long
+        #define pi acos(-1)
+
+
+        class node{
         public:
             int parent;
             int distance;
@@ -463,34 +470,34 @@
 
         int main() {
             /*
-                        dijkstra
+                dijkstra
 
-                        Initialize-Single-Source(G, s)
-                        {
-                            for each vartex v -> G.V
-                                v.distance = infinity
-                                v.parent = NIL = -1
-                            s.distance = 0                  // only source parent 0 others null
-                        }
+                Initialize-Single-Source(G, s)
+                {
+                    for each vartex v -> G.V
+                        v.distance = infinity
+                        v.parent = NIL = -1
+                    s.distance = 0                  // only source parent 0 others null
+                }
 
-                        Relax(u, v, w)
-                        {
-                            if v.distance > u.distance + w(u,v)
-                                v.distance = u.distance + w(u,v)
-                                v.parent = u
-                        }
+                Relax(u, v, w)
+                {
+                    if v.distance > u.distance + w(u,v)
+                        v.distance = u.distance + w(u,v)
+                        v.parent = u
+                }
 
-                        Dijkstra(G, w, s)
-                        {
-                            Initialize-Single-Source(G, s)
-                            S = NIL                                 // shorted path tree null
-                            Q = G.V                                 // min priority queue Q
-                            while Q != empty                        // keyed by vertex.distance value
-                                u = Extract-Min(Q)
-                                S = S (UNION) u                     // shorted path tree
-                                for each vertex v --> adjacent(u)
-                                    Relax(u, v, w)
-                        }
+                Dijkstra(G, w, s)
+                {
+                    Initialize-Single-Source(G, s)
+                    S = NIL                                 // shorted path tree null
+                    Q = G.V                                 // min priority queue Q
+                    while Q != empty                        // keyed by vertex.distance value
+                        u = Extract-Min(Q)
+                        S = S (UNION) u                     // shorted path tree
+                        for each vertex v --> adjacent(u)
+                            Relax(u, v, w)
+                }
 
             */
 
@@ -584,6 +591,8 @@
             */
              return index;
         }
+
+
 
 
 
