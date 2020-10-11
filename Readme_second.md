@@ -445,7 +445,7 @@
 Before
  ![before](https://github.com/abdulmukit98/code/blob/master/before.jpg) <br>
 After <br>
- ![after](https://github.com/abdulmukit98/code/blob/master/after.jpg)
+ ![after](https://github.com/abdulmukit98/code/blob/master/after.png)
 
         class node{
         public:
