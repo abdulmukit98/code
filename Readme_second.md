@@ -1,8 +1,8 @@
 ### Part II
 ### Quicksort
+![chi](https://github.com/abdulmukit98/code/blob/master/chi.png)
 
-
-        /*
+       
                 Quicksort - use divide and conquer method
 
                 let arr[p...........r]
@@ -166,7 +166,7 @@
                 return;
             }
 
-    */
+   
 
 
 
