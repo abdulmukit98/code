@@ -102,6 +102,8 @@ Timus JUDGE_ID: 299746HR
 </h3>
 
 ### insertion sort
+
+[shuffle](https://github.com/abdulmukit98/code/blob/master/insertion.png)
     void insertion(int* arr, int n)
     {
          for(int j=1; j<n; j++)
