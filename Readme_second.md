@@ -441,7 +441,15 @@
 </h3>
 
 ### Happy Dijkstra Day
-       
+
+<h3>
+<p align="left">
+ ![before](https://github.com/abdulmukit98/code/blob/master/before.jpg)
+ /
+ ![after](https://github.com/abdulmukit98/code/blob/master/before.jpg)
+ </p>
+</h3>
+
         class node{
         public:
             int parent;
