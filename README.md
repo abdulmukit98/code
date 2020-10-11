@@ -431,6 +431,13 @@ Timus JUDGE_ID: 299746HR
                            // if the graph is weighted, simply make pair of adjacancy
                        }
                    }
+             
+             
+             * path printing
+                        i = n; 
+                        while(i != root)
+                           print parent[i]
+                           i = parent[i]
  
 ### getline vs gets
             for line input
