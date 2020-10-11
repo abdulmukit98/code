@@ -442,9 +442,10 @@
 
 ### Happy Dijkstra Day
 
-
+Before
  ![before](https://github.com/abdulmukit98/code/blob/master/before.jpg)
- ![after](https://github.com/abdulmukit98/code/blob/master/before.jpg)
+After 
+ ![after](https://github.com/abdulmukit98/code/blob/master/after.jpg)
 
         class node{
         public:
