@@ -400,7 +400,7 @@
                 no match for 'operator<' (operand types are 'const node' and 'const node')
                 { return __x < __y; }
           that mean we need to modify operator < for node class object to process the priority
-          we use operator overloading concept for < operator for node class object
+          we use operator overloading concept for < operator for node-class object
           
           bool operator < (node a, node b)
           {
