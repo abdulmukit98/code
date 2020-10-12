@@ -438,7 +438,11 @@ Timus JUDGE_ID: 299746HR
                         while(i != root)
                            print parent[i]
                            i = parent[i]
- 
+            
+            * grater<int>
+              sort (numbers, numbers+5, std::greater<int>());
+              priority_queue<int, vector<int>, grater<int>>Q
+              
 ### getline vs gets
             for line input
             char arr[100]
