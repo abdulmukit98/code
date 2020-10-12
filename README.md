@@ -440,7 +440,7 @@ Timus JUDGE_ID: 299746HR
                            i = parent[i]
             
             * grater<int>
-              sort (numbers, numbers+5, std::greater<int>());
+              sort(arr, arr + 9, greater<int>()); 
               priority_queue<int, vector<int>, grater<int>>Q
               
 ### getline vs gets
