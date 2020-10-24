@@ -442,6 +442,8 @@ Timus JUDGE_ID: 299746HR
             * grater<int>
               sort(arr, arr + 9, greater<int>()); 
               priority_queue<int, vector<int>, grater<int>>Q
+
+            * x >> y = x * 2^y 
               
 ### getline vs gets
             for line input
