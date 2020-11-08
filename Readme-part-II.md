@@ -1,6 +1,6 @@
 ### Part II
 ### Quicksort
-![chi](https://github.com/abdulmukit98/code/blob/master/chi.png)
+![chi](https://github.com/abdulmukit98/code/tree/images/chi.png)
 
        
                 Quicksort - use divide and conquer method
