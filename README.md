@@ -101,6 +101,38 @@ Timus JUDGE_ID: 299746HR
 </p>
 </h3>
 
+### Representing Graph
+For weighted graph
+````
+ vector<pair<int, int>> node[SIZE];
+ int n; cin>>n;
+ int m; cin>>m;
+ for (int i = 0; i < m; ++i) {
+     int u, v,w;
+     cin>>u>>v>>w;
+     node[u].push_back(make_pair(v,w));
+     node[v].push_back(make_pair(u,w));
+ }
+ for (int i = 1; i <= n; ++i) {
+     cout<<i<<": ";
+     for (int j = 0; j < node[i].size(); ++j) {
+         cout<<"( "<<node[i][j].first<<", "<<node[i][j].second<<" ) ";
+     }
+     cout<<endl;
+ }
+````
+For unweighted graph 
+````
+vector<int> node[1000];
+cin >> n>> m;
+for(int i=0; i<m;i++)
+{
+   cin>>u>>v;
+   node[u].push_back(v);
+   node[v].push_back(u);
+}
+````
+
 ### insertion sort
 ![shuffle](https://github.com/abdulmukit98/code/blob/master/insertion.png)
 
